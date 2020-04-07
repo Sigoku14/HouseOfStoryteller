@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#full-map {
+    width: 1140px;
+    height: 1140px;
+    background-color: silver;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+#map {
+    width: 1100px;
+    height: 1100px;
+
+    border-collapse: collapse;
+}
+tr td {
+    border: 2px solid silver;
+    background-color: white;
+}
