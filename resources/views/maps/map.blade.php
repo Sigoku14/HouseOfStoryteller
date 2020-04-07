@@ -15,6 +15,9 @@
             <option value="s1">100 × 100</option>
         </select>
     </div>
+    <div>
+        <map></map>
+    </div>
     <br />
     <span>Selected:</span>
 </article>

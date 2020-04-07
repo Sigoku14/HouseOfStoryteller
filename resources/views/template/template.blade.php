@@ -17,7 +17,7 @@
     <footer>
         <small>© 2020 H. All Rights Reserved.</small>
     </footer>
-    <script src="{{ mix('js/app.js') }}"></script>
+    <!-- <script src="{{ mix('js/app.js') }}"></script> -->
 </body>
 
 </html>
