@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
-class RouteController extends Controller
+class MapController extends Controller
 {
     public function map()
     {

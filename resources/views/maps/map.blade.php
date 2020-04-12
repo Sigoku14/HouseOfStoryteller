@@ -29,7 +29,7 @@
                     <div id="color">
                         @for ($i = 1;$i <= 3;$i++)
                             @for ($j=1;$j <=13; $j++)
-                                <label id="color-box" class="color-{{$i."-".$j}}" style="background-color: red;">
+                                <label id="color-box" class="color-{{$i."-".$j}}" style="background-color: white;">
                                     <input type="radio" autocomplete="off" name="color-b">
                                     {{-- {{$i."-".$j}} --}}
                                 </label>
@@ -42,6 +42,7 @@
     </div>
 </article>
 
+<script src="https://cdn.jsdelivr.net/npm/@simonwep/selection-js/dist/selection.min.js"></script>
 <script type="text/javascript">
 </script>
 @endsection

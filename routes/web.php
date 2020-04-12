@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get("/map", "RouteController@map");
+Route::get("/map", "MapController@map");
