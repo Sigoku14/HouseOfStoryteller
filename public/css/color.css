@@ -1,39 +1,39 @@
-.white {
-    color: white;
+.boxes div.selected.white {
+    background: white;
 }
 
-.silver {
-    color: silver;
+.boxes div.selected.silver {
+    background: silver;
 }
 
-.black {
-    color: black;
+.boxes div.selected.black {
+    background: black;
 }
 
-.red {
-    color: red;
+.boxes div.selected.red {
+    background: red;
 }
 
-.orange {
-    color: orange;
+.boxes div.selected.orange {
+    background: orange;
 }
 
-.yellow {
-    color: yellow;
+.boxes div.selected.yellow {
+    background: yellow;
 }
 
-.green {
-    color: green;
+.boxes div.selected.green {
+    background: green;
 }
 
-.blue {
-    color: blue;
+.boxes div.selected.blue {
+    background: blue;
 }
 
-.deepskyblue {
-    color: deepskyblue;
+.boxes div.selected.deepskyblue {
+    background: deepskyblue;
 }
 
-.purple {
-    color: purple;
+.boxes div.selected.purple {
+    background: purple;
 }
