@@ -25,9 +25,9 @@
                     <h3>カラーパレット</h3>
                     <div id="color">
                         @foreach ($colors as $color)
-                                <label class="color-box" style="background-color: #{{$color->code}};">
-                                    <input type="radio" autocomplete="off" name="color_b" value="{{$color->name}}">
-                                </label>
+                            <label class="color-box" style="background-color: #{{$color->code}};">
+                                <input type="radio" autocomplete="off" name="color_b" value="{{$color->name}}">
+                            </label>
                         @endforeach
                         @if ($color->id == 1 )
                             @for ($i = 1; $i <= $cnt; $i++)

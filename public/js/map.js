@@ -13,6 +13,8 @@ for (const [sel, items] of boxes) {
     }
 }
 
+const clr = ["white", "silver", "black", "red", "orange", "yellow", "green", "blue", "deepswkyblue", 'purple'];
+
 // Initialize selectionjs
 const selection = Selection.create({
     class: 'selection',
@@ -37,12 +39,13 @@ const selection = Selection.create({
 }) => {
     color = sessionStorage.getItem('color');
     for (const el of added) {
+        el.classList.remove(...clr);
         el.classList.add('selected');
         el.classList.add(color);
+        console.log(el.classList);
     }
     for (const el of removed) {
         el.classList.remove('selected');
-        el.classList.remove(color);
     }
 }).on('stop', ({
     inst
