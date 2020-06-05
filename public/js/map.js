@@ -13,7 +13,7 @@ for (const [sel, items] of boxes) {
     }
 }
 
-const clr = ["white", "silver", "black", "red", "orange", "yellow", "green", "blue", "deepswkyblue", 'purple'];
+const clr = ["white", "silver", "black", "red", "orange", "yellow", "green", "blue", "deepskyblue", 'purple'];
 
 // Initialize selectionjs
 const selection = Selection.create({
