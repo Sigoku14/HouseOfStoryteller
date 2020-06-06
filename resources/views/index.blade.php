@@ -2,7 +2,6 @@
 
 @section('title', 'かきつづり')
 @section('css1', '/HouseOfStoryteller/public/css/index.css')
-@section('css2', '/HouseOfStoryteller/public/css/color.css')
 @include('template/header')
 
 @section('content')
