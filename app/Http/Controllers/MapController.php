@@ -7,6 +7,11 @@ use Illuminate\Support\Facades\DB;
 
 class MapController extends Controller
 {
+    public function index()
+    {
+        return view("index");
+    }
+
     public function map()
     {
         $colors = DB::table('colors')->select()->orderBy('id', 'desc')->get();
