@@ -20,9 +20,15 @@ header h1 {
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/2;
+    position: relative;
 }
 header h1 img {
     width: 30%;
+}
+header h1 span {
+    font-family: "inishie";
+    position: absolute;
+    top: 50%;
 }
 
 header #search-div {
@@ -51,6 +57,7 @@ header #search-div div input {
     font-size: 16pt;
     text-indent: 1rem;
     padding: 5px 0 0 0;
+    font-family: "mame";
 }
 header #search-div div button {
     background-color: rgb(239, 243, 244);
@@ -91,6 +98,7 @@ header #write span {
     color: gray;
     font-size: 16pt;
     padding: 10px 0 0 0;
+    font-family: "mame";
 }
 
 header nav #bell {

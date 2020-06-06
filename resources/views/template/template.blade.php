@@ -7,7 +7,7 @@
 
 <body>
     <header>
-        <h1><img src="img/unity/logo.png" alt="かきつづりロゴ">かきつづり</h1>
+        <h1><img src="img/unity/logo.png" alt="かきつづりロゴ"><span>かきつづり</span></h1>
         <div id="search-div">
             <div>
                 <input type="text" placeholder="シナリオを検索">
