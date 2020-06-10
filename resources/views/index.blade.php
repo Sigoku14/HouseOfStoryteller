@@ -7,7 +7,7 @@
 @section('content')
 
 <article>
-    <h2>Hello!!</h2>
+    
 </article>
 
 <script type="text/javascript">
